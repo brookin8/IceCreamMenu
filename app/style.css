@@ -1,12 +1,34 @@
+
+/* Google Fonts: 
+font-family: 'Sacramento', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Fredericka the Great', cursive;
+*/
+
+
+body {
+
+background-image: url("../docs/blackboard.jpg");
+background-repeat:no-repeat;
+
+
+}
+
+
 h1 {
 	text-align: center;
 	padding-top: 3%;
-	font-size:350%;
+	font-size:400%;
 	font-style:cursive;
+	padding-bottom:4%;
+	color:#ffffff;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 #menuBoard {
 	width:90%;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 #subMenus {
@@ -20,6 +42,22 @@ h1 {
 	padding-top:2%;
 	width:100%;
 	margin-bottom:2%;
+	font-family: 'Sacramento', cursive;
+	background-color:transparent;
+	border:none;
+}
+
+h2 {
+	font-size:400%;
+}
+
+.frontBracket {
+	padding-left:0%;
+	padding-right:10%;
+}
+.backBracket {
+	padding-left:10%;
+	padding-right:0%;
 }
 
 #printOutOptions1 {
@@ -47,14 +85,17 @@ table {
 	width:90%;
 	margin-left:5%;
 	margin-right:5%;
+	color:#ffffff;
 }
 
 th {
 	text-align:center;
 	padding:3%;
+	font-size:200%;
 }
 
 td {
 	text-align:center;
 	padding:3%;
+	font-size:130%;
 }
