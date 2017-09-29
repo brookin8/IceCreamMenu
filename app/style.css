@@ -1,0 +1,60 @@
+h1 {
+	text-align: center;
+	padding-top: 3%;
+	font-size:350%;
+	font-style:cursive;
+}
+
+#menuBoard {
+	width:90%;
+}
+
+#subMenus {
+	padding-left:auto;
+	padding-right:auto;
+	text-align:center;
+}
+
+.btn {
+	padding-bottom:2%;
+	padding-top:2%;
+	width:100%;
+	margin-bottom:2%;
+}
+
+#printOutOptions1 {
+	display:none;
+}
+
+#printOutOptions2 {
+	display:none;
+}
+
+#printOutOptions3 {
+	display:none;
+}
+
+#printOutOptions4 {
+	display:none;
+}
+
+.printOutOptions {
+	padding-top:2%;
+	padding-bottom:3%;
+}
+
+table {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+th {
+	text-align:center;
+	padding:3%;
+}
+
+td {
+	text-align:center;
+	padding:3%;
+}
