@@ -8,11 +8,12 @@ font-family: 'Fredericka the Great', cursive;
 
 body {
 
-background-image: url("../docs/blackboard.jpg");
-background-repeat:no-repeat;
-
-
+/*background-image: url("../docs/blackboard.jpg");
+background-repeat:no-repeat;*/
+background-color:#404040;
+background: linear-gradient(to bottom right, #808080, #404040); /* Standard syntax */
 }
+
 
 
 h1 {
@@ -45,7 +46,9 @@ h1 {
 	font-family: 'Sacramento', cursive;
 	background-color:transparent;
 	border:none;
+
 }
+
 
 h2 {
 	font-size:400%;
